@@ -189,6 +189,11 @@ main {
     }
 }
 
+@media (max-width: 500px){
+  .cardcontainer-child{
+    display: block;
+  }
+}
 .thankyou img {
   display: block;
   margin-left: auto;

@@ -53,7 +53,7 @@ a {
   color: black;
 }
 
-main {
+/* main {
   background-image: url(media/bg.jpg);
   object-fit: contain;
   background-position: center;
@@ -64,7 +64,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .container-parent h1 {
   background-color: aliceblue;

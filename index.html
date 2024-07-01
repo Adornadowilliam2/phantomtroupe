@@ -11,21 +11,16 @@
     </head>
 
     <body>
-        <a href="#section1">
-            <div id="up-arrow" style="display: none;">
-                <img src="media/arrow up.png" alt="Arrow up" width="50px">
-            </div>
-        </a>
-        <nav class="d-flex justify-content-spacebetween align-item-center boxshadow" id="section1">
+        <nav class="d-flex justify-content-between align-item-center boxshadow" id="section1">
             <div class="d-flex align-item-center">
                 <img src="media/logo.jpg" alt="Logo" class="img-100sz">
                 <h1 class="header">Phantom Troupe</h1>
             </div>
             <div>
-                <ul class="d-flex justify-content-spacebetween align-item-center margin10">
-                    <li><a href="index.html" class="margin10">Home</a></li>
-                    <li><a href="about.html" class="margin10">About</a></li>
-                    <li><a href="contact.html" class="margin10">Contact</a></li>
+                <ul class="d-flex justify-content-between align-item-center gap">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,7 +54,7 @@
                     <p>Member #3 of Phantom Troupe</p>
                 </div>
                 <div class="card">
-                    <img src="media/card5.webp" alt="Phinks Macgub">
+                    <img src="media/card5.jpg" alt="Phinks Macgub">
                     <h2>Phinks Macgub</h2>
                     <p>Member #5 of Phantom Troupe</p>
                 </div>
@@ -221,20 +216,3 @@
     </body>
 
     </html>
-    <script>
-        // Get the up arrow element
-        const upArrow = document.getElementById('up-arrow');
-
-        // Add a scroll event listener
-        window.addEventListener('scroll', function () {
-            // Check if the scroll position is below 100vh
-            if (window.scrollY > window.innerHeight) {
-                // Show the up arrow
-                upArrow.style.display = 'block';
-                upArrow.setAttribute("class", "uparrow")
-            } else {
-                // Hide the up arrow
-                upArrow.style.display = 'none';
-            }
-        });
-    </script>

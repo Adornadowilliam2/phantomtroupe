@@ -38,20 +38,13 @@ span {
   display: flex;
   align-items: center;
 }
-/* ================= */
 
 .section1 {
   border: 2px black solid;
   background-color: #c2ce8d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-
-.card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.section1 h1 {
+  text-align: center;
 }
 
 .card {
@@ -68,26 +61,13 @@ span {
   height: 300px;
 }
 
-.title {
-  position: relative;
-  border: 2px black solid;
-  background-image: linear-gradient(white, #dbdecb);
-  margin-top: 20px;
-  padding: 20px;
-  text-align: center;
-  max-width: fit-content;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.section2 {
+.box-container {
   padding: 20px;
-}
-
-.gallery {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  background-color: #040404;
-  margin-top: 5px;
 }
 
 .card h2,
@@ -100,34 +80,17 @@ span {
   text-align: justify;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center;
-  padding: 10px;
-  margin-top: 5px;
-  width: 800px;
-}
-
-.thankyou img {
+footer img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.thankyou p {
+footer p {
   display: block;
   margin: auto;
   text-align: center;
 }
-
-.uparrow:hover {
-  background-color: #f0f0f0;
-  transform: scale(1.1);
-}
-
-/* =================================== */
 
 .about {
   background-color: dimgrey;
@@ -161,47 +124,16 @@ span {
   padding: 5px;
 }
 
-.btn-back {
-  width: 100%;
-  font-size: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.btn-back a {
-  text-decoration: none;
-}
-
 /* ==================================== */
 
-.contact {
-  background-color: dimgrey;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-}
-
 .contact-child {
-  margin: 10px auto;
-  border: 2px black solid;
+  border: 2px solid black;
   padding: 10px;
-  font-size: 30px;
-  display: block;
-}
-
-.contact-child ul li {
-  list-style-type: none;
-  color: blue;
 }
 
 @media screen and (max-width: 767px) {
   span h1 {
     display: none;
-  }
-  .card-container {
-    display: block;
-    margin: auto;
   }
 
   .box-container img {

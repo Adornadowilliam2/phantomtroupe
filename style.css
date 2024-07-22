@@ -70,6 +70,12 @@ span {
   padding: 20px;
 }
 
+.box-container img {
+  width: 200px;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 5px;
+}
+
 .card h2,
 .card p {
   padding-left: 10px;
@@ -120,5 +126,10 @@ footer p {
 
   .contact ul li {
     display: block;
+  }
+
+  .card {
+    display: block;
+    margin: 5px auto;
   }
 }

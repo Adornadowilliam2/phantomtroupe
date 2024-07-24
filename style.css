@@ -135,70 +135,59 @@ footer p {
 /* Break point */
 
 @media (max-width: 767px) {
-  nav h1 {
-    font-size: 20px;
+  nav {
+    font-size: 10px;
   }
 
   nav img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 660px) {
+  .card img {
+    width: 200px;
+    height: 250px;
   }
 
-  .about {
+  .card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 447px) {
+  nav img {
+    display: none;
+  }
+
+  nav h1 {
+    font-size: 15px;
+  }
+
+  nav ul {
     font-size: 10px;
   }
-}
 
-@media (max-width: 459px) {
-  nav h1 {
-    font-size: 15px;
+  .card img {
+    width: 150px;
+    height: 200px;
   }
 
+  .card {
+    width: 150px;
+  }
+}
+
+/* removal breakpoint */
+@media (max-width: 316px) {
   nav ul li {
-    font-size: 15px;
-  }
-
-  .about {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 304px) {
-  nav h1 {
     display: none;
   }
 }
 
-@media (min-width: 767px) {
-  nav {
-    font-size: 25px;
-  }
-
-  nav img {
-    width: 80px;
-    height: 80px;
-  }
-}
-
-@media (max-width: 988px) {
-  .about {
-    font-size: 20px;
-  }
-
-  .contact {
-    font-size: 30px;
-  }
-
-  .contact ul li {
-    display: block;
-    margin: auto;
-  }
-
-  .section1 {
-    font-size: 30px;
-  }
-
-  footer {
-    font-size: 30px;
+@media (max-width: 144px) {
+  body {
+    display: none;
   }
 }

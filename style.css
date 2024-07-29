@@ -51,6 +51,12 @@ span {
 }
 .section1 h1 {
   text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border: 2px solid black;
 }
 
 .card {
@@ -87,8 +93,8 @@ span {
 /* !This card same as a normal card */
 .box-container {
   padding: 10px;
-  width: 350px;
-  height: 550px;
+  width: 250px;
+  height: 450px;
   border: 5px solid #fff;
   box-shadow: 10px 10px 0 black;
   margin: 5px;
@@ -96,7 +102,7 @@ span {
 }
 
 .box-container img {
-  width: 200px;
+  width: 100px;
   display: block;
   margin: auto;
   border-left: 50px solid black;

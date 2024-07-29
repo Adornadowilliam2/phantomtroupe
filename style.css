@@ -86,13 +86,13 @@ span {
 
 /* !This card same as a normal card */
 .box-container {
-  padding: 20px;
-  width: 300px;
+  padding: 10px;
+  width: 350px;
   height: 550px;
   border: 5px solid #fff;
   box-shadow: 10px 10px 0 black;
   margin: 5px;
-  background-color: #b9dbf6;
+  background-color: #c2ce8d;
 }
 
 .box-container img {
@@ -133,29 +133,13 @@ span {
   box-sizing: border-box;
 }
 
-/* .card-front {
-  background-image: url("media/huntercard.png");
-  width: 300px;
-  height: 550px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-} */
-
-/* .bar {
-  width: 20px;
-  height: 550px;
-  background-color: rgb(41, 1, 1);
-}
-
-.sm-square {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  margin-right: 120px;
-} */
-
 .card-back {
   transform: rotateY(180deg);
+}
+
+footer {
+  margin-top: 10px;
+  border-top: 5px solid black;
 }
 
 footer img {
@@ -234,11 +218,6 @@ footer p {
 
   .box-container img {
     width: 100px;
-  }
-
-  footer {
-    margin-top: 10px;
-    border-top: 5px solid black;
   }
 }
 

@@ -139,25 +139,26 @@ footer p {
 /* Break point */
 @media (min-width: 768px) {
   /* !This card same as a normal card */
+  .section2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
   .box-container {
     padding: 10px;
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     border: 5px solid #fff;
     box-shadow: 10px 10px 0 black;
-    margin: 5px;
+    margin: 10px;
     background-color: #c2ce8d;
   }
 
   .box-container img {
-    width: 100px;
+    width: 150px;
     display: block;
     margin: auto;
-    border-left: 50px solid black;
-    border-right: 50px solid black;
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
     margin-bottom: 5px;
   }
 
@@ -240,7 +241,6 @@ footer p {
     width: 150px;
   }
 }
-
 @media (max-width: 580px) {
   .card-front,
   .card-back {
@@ -267,7 +267,6 @@ footer p {
     width: 100px;
   }
 }
-
 /* removal breakpoint */
 @media (max-width: 316px) {
   nav ul li {
@@ -282,7 +281,6 @@ footer p {
     display: none;
   }
 }
-
 @media (max-width: 144px) {
   body {
     display: none;

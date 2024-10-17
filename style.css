@@ -150,13 +150,11 @@ footer.thankyou p {
 
 .card-front h2,
 .card-back h2 {
-  /* margin: 0.5rem 0; */
   font-size: 1.5rem;
 }
 
 .card-front h3,
 .card-back h3 {
-  /* margin: 0.5rem 0; */
   font-size: 1.25rem;
   color: #666;
 }

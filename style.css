@@ -8,7 +8,13 @@ body {
 
 main img {
   width: 100%;
-  height: auto;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  main img {
+    height: auto;
+  }
 }
 
 .section1 {
@@ -75,6 +81,13 @@ footer.thankyou p {
   padding: 2rem;
   background-color: #fff;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 768px) {
+  .section2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .box-container {
@@ -124,8 +137,8 @@ footer.thankyou p {
   transform: rotateY(0);
 }
 
-.card-front img,
-.card-back img {
+.card-front .pfp,
+.card-back .pfp {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -137,13 +150,13 @@ footer.thankyou p {
 
 .card-front h2,
 .card-back h2 {
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
   font-size: 1.5rem;
 }
 
 .card-front h3,
 .card-back h3 {
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
   font-size: 1.25rem;
   color: #666;
 }
